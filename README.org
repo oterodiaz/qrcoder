@@ -1,0 +1,14 @@
+#+title: QRCoder
+
+Generate and scan QR Codes from your Mac. Written in SwiftUI for macOS 13 Ventura and later.
+
+#+attr_html: :alt "QRCoder screenshot"
+[[./screenshot.png]]
+
+* Installation
+You can find a precompiled universal binary for Intel and Apple Silicon Macs on the releases page. Alternatively, refer to the /Build/ section for instructions on how to compile it yourself.
+
+When you run the program for the first time, you might see a popup window saying that the app can't run because it wasn't signed by an identified developer. You can run it anyway by following the instructions provided by Apple [[https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac][here]].
+
+* Build
+You will need to have Xcode installed, which can be downloaded from [[https://apps.apple.com/es/app/xcode/id497799835][the Mac App Store]]. QRCoder uses no external libraries, so just clone this repository, open it with Xcode and compile it normally.

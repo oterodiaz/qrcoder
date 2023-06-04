@@ -1,0 +1,156 @@
+/* No comment provided by engineer. */
+"Address" = "Dirección";
+
+/* No comment provided by engineer. */
+"Amount of redundant data to preserve scannability if the code is damaged" = "Cantidad de información duplicada para que el código continúe funcionando aunque esté parcialmente dañado";
+
+/* No comment provided by engineer. */
+"Background" = "Fondo";
+
+/* No comment provided by engineer. */
+"Choose where to store the QR code." = "Elija dónde guardar el código QR";
+
+/* No comment provided by engineer. */
+"Color" = "Color";
+
+/* Plural for exactly two (2) colors */
+"Colors" = "Colores";
+
+/* No comment provided by engineer. */
+"Copy" = "Copiar";
+
+/* No comment provided by engineer. */
+"Correction Level" = "Nivel de corrección de errores";
+
+/* No comment provided by engineer. */
+"Could not find any QR Codes in the provided image." = "No se ha podido encontrar ningún código QR en la imagen.";
+
+/* No comment provided by engineer. */
+"Customize" = "Personalizar";
+
+/* No comment provided by engineer. */
+"Decoded Message" = "Mensaje descodificado";
+
+/* No comment provided by engineer. */
+"Direction" = "Dirección";
+
+/* No comment provided by engineer. */
+"Drop an Image Here" = "Arrastre una imagen aquí";
+
+/* No comment provided by engineer. */
+"Email" = "Email";
+
+/* No comment provided by engineer. */
+"Encryption" = "Encriptación";
+
+/* No comment provided by engineer. */
+"Export" = "Exportar";
+
+/* No comment provided by engineer. */
+"Foreground" = "Primer plano";
+
+/* No comment provided by engineer. */
+"Generate" = "Generar";
+
+/* No comment provided by engineer. */
+"Gradient" = "Gradiente";
+
+/* No comment provided by engineer. */
+"Gradient End Color" = "Color final del gradiente";
+
+/* No comment provided by engineer. */
+"Gradient Start Color" = "Color inicial del gradiente";
+
+/* No comment provided by engineer. */
+"Hidden Network" = "Red oculta";
+
+/* No comment provided by engineer. */
+"High (30%)" = "Alto (30%)";
+
+/* No comment provided by engineer. */
+"If unsure, select WPA, as it is the default in most routers" = "En caso de duda, seleccione WPA (el valor por defecto en la mayoría de routers)";
+
+/* No comment provided by engineer. */
+"Image file name:" = "Nombre del archivo:";
+
+/* No comment provided by engineer. */
+"Info" = "Información";
+
+/* No comment provided by engineer. */
+"Low (7%)" = "Bajo (7%)";
+
+/* No comment provided by engineer. */
+"Medium (15%)" = "Intermedio (15%)";
+
+/* No comment provided by engineer. */
+"Message" = "Mensaje";
+
+/* No comment provided by engineer. */
+"Must be at least %lld characters long" = "Mínimo %lld caracteres";
+
+/* No comment provided by engineer. */
+"Must be at least 2 characters long" = "Mínimo 2 caracteres";
+
+/* No comment provided by engineer. */
+"Network Name" = "Nombre de la red";
+
+/* No comment provided by engineer. */
+"Open File" = "Abrir archivo";
+
+/* No comment provided by engineer. */
+"Password" = "Contraseña";
+
+/* No comment provided by engineer. */
+"Passwordless" = "Sin contraseña";
+
+/* No comment provided by engineer. */
+"QRCoder" = "QRCoder";
+
+/* No comment provided by engineer. */
+"Quartile (25%)" = "Cuartil (25%)";
+
+/* No comment provided by engineer. */
+"Required field" = "Campo obligatorio";
+
+/* No comment provided by engineer. */
+"Reset" = "Restaurar";
+
+/* No comment provided by engineer. */
+"Save" = "Guardar";
+
+/* No comment provided by engineer. */
+"Scan" = "Escanear";
+
+/* No comment provided by engineer. */
+"Scan Area" = "Escanear una zona";
+
+/* No comment provided by engineer. */
+"Scan Failed" = "Error al escanear";
+
+/* No comment provided by engineer. */
+"Scan Screen" = "Escanear la pantalla";
+
+/* No comment provided by engineer. */
+"Security" = "Seguridad";
+
+/* No comment provided by engineer. */
+"Select an Image" = "Seleccione una imagen";
+
+/* No comment provided by engineer. */
+"Select an image containing a QR code" = "Seleccione una imagen que contenga un código QR";
+
+/* No comment provided by engineer. */
+"Share" = "Compartir";
+
+/* No comment provided by engineer. */
+"Solid Color" = "Color sólido";
+
+/* No comment provided by engineer. */
+"Subject" = "Asunto";
+
+/* No comment provided by engineer. */
+"Text" = "Texto";
+
+/* No comment provided by engineer. */
+"Wifi" = "Wifi";
+
