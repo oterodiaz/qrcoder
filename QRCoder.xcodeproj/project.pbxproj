@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15A21522A2D384F00EE522C /* Preview-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A21512A2D384F00EE522C /* Preview-ViewModel.swift */; };
+		F15C97EE2A279E2B0053104A /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C97ED2A279E2B0053104A /* Scan.swift */; };
+		F15C97F22A27A37B0053104A /* Scan-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C97F12A27A37B0053104A /* Scan-ViewModel.swift */; };
+		F15C97F42A27AE9D0053104A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C97F32A27AE9D0053104A /* TextView.swift */; };
+		F15C97F62A27D5A80053104A /* GeneratorViewModel-Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C97F52A27D5A80053104A /* GeneratorViewModel-Protocol.swift */; };
+		F15C97FB2A27EA460053104A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F15C97F92A27EA460053104A /* Localizable.strings */; };
+		F15C97FD2A27EB580053104A /* SaveToFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C97FC2A27EB580053104A /* SaveToFile.swift */; };
+		F179A7062A1D5C76002D1192 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179A7052A1D5C76002D1192 /* QRCode.swift */; };
+		F179A7082A1D5C81002D1192 /* CorrectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179A7072A1D5C81002D1192 /* CorrectionLevel.swift */; };
+		F19E588F2A1E9031009BF8DB /* TextGenerator-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E588E2A1E9031009BF8DB /* TextGenerator-ViewModel.swift */; };
+		F19E58912A1E90E3009BF8DB /* EmailGenerator-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E58902A1E90E3009BF8DB /* EmailGenerator-ViewModel.swift */; };
+		F19E58932A1E91B6009BF8DB /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E58922A1E91B6009BF8DB /* Email.swift */; };
+		F1AE02D32A1E596A00B01284 /* WifiGenerator-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE02D22A1E596A00B01284 /* WifiGenerator-ViewModel.swift */; };
+		F1AE02D52A1E7CAA00B01284 /* Wifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE02D42A1E7CAA00B01284 /* Wifi.swift */; };
+		F1AEA0A72A164F4D004EDAC1 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEA0A62A164F4D004EDAC1 /* Preview.swift */; };
+		F1AEA0AB2A167902004EDAC1 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEA0AA2A167902004EDAC1 /* Checkerboard.swift */; };
+		F1AEA0AF2A167F89004EDAC1 /* FormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEA0AE2A167F89004EDAC1 /* FormRow.swift */; };
+		F1B4D6722A13A9CF00F92D7C /* QRCoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D6712A13A9CF00F92D7C /* QRCoderApp.swift */; };
+		F1B4D6742A13A9CF00F92D7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D6732A13A9CF00F92D7C /* ContentView.swift */; };
+		F1B4D6762A13A9D000F92D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B4D6752A13A9D000F92D7C /* Assets.xcassets */; };
+		F1B4D6792A13A9D000F92D7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B4D6782A13A9D000F92D7C /* Preview Assets.xcassets */; };
+		F1B4D6852A13FD7400F92D7C /* WifiGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D6842A13FD7400F92D7C /* WifiGenerator.swift */; };
+		F1B4D6872A13FDBC00F92D7C /* SidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D6862A13FDBC00F92D7C /* SidebarItem.swift */; };
+		F1B4D6892A13FE2100F92D7C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D6882A13FE2100F92D7C /* AppState.swift */; };
+		F1EC257A2A194B370085C755 /* CorrectionLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC25792A194B370085C755 /* CorrectionLevelView.swift */; };
+		F1EC25972A1ACBAF0085C755 /* EmailGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC25962A1ACBAF0085C755 /* EmailGenerator.swift */; };
+		F1EC25992A1B843D0085C755 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC25982A1B843D0085C755 /* CustomTextEditor.swift */; };
+		F1EC259C2A1BE9D70085C755 /* CreateTempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC259B2A1BE9D70085C755 /* CreateTempFile.swift */; };
+		F1EC259E2A1CC8200085C755 /* DirectionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC259D2A1CC8200085C755 /* DirectionPicker.swift */; };
+		F1EC25A02A1CCD040085C755 /* StyleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC259F2A1CCD040085C755 /* StyleOptions.swift */; };
+		F1F7A2272A17DEFD0016BCE3 /* TextGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7A2262A17DEFD0016BCE3 /* TextGenerator.swift */; };
+		F1F7A2292A1810DD0016BCE3 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7A2282A1810DD0016BCE3 /* Generator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F15A21512A2D384F00EE522C /* Preview-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview-ViewModel.swift"; sourceTree = "<group>"; };
+		F15C97ED2A279E2B0053104A /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		F15C97F12A27A37B0053104A /* Scan-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scan-ViewModel.swift"; sourceTree = "<group>"; };
+		F15C97F32A27AE9D0053104A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F15C97F52A27D5A80053104A /* GeneratorViewModel-Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeneratorViewModel-Protocol.swift"; sourceTree = "<group>"; };
+		F15C97FA2A27EA460053104A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F15C97FC2A27EB580053104A /* SaveToFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveToFile.swift; sourceTree = "<group>"; };
+		F179A7052A1D5C76002D1192 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		F179A7072A1D5C81002D1192 /* CorrectionLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionLevel.swift; sourceTree = "<group>"; };
+		F19E588E2A1E9031009BF8DB /* TextGenerator-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextGenerator-ViewModel.swift"; sourceTree = "<group>"; };
+		F19E58902A1E90E3009BF8DB /* EmailGenerator-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmailGenerator-ViewModel.swift"; sourceTree = "<group>"; };
+		F19E58922A1E91B6009BF8DB /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		F1AE02D22A1E596A00B01284 /* WifiGenerator-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WifiGenerator-ViewModel.swift"; sourceTree = "<group>"; };
+		F1AE02D42A1E7CAA00B01284 /* Wifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wifi.swift; sourceTree = "<group>"; };
+		F1AEA0A62A164F4D004EDAC1 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		F1AEA0AA2A167902004EDAC1 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		F1AEA0AE2A167F89004EDAC1 /* FormRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRow.swift; sourceTree = "<group>"; };
+		F1B4D66E2A13A9CF00F92D7C /* QRCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B4D6712A13A9CF00F92D7C /* QRCoderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCoderApp.swift; sourceTree = "<group>"; };
+		F1B4D6732A13A9CF00F92D7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1B4D6752A13A9D000F92D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B4D6782A13A9D000F92D7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1B4D67A2A13A9D000F92D7C /* QRCoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCoder.entitlements; sourceTree = "<group>"; };
+		F1B4D6842A13FD7400F92D7C /* WifiGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiGenerator.swift; sourceTree = "<group>"; };
+		F1B4D6862A13FDBC00F92D7C /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
+		F1B4D6882A13FE2100F92D7C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F1EC25792A194B370085C755 /* CorrectionLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionLevelView.swift; sourceTree = "<group>"; };
+		F1EC25962A1ACBAF0085C755 /* EmailGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailGenerator.swift; sourceTree = "<group>"; };
+		F1EC25982A1B843D0085C755 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		F1EC259B2A1BE9D70085C755 /* CreateTempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTempFile.swift; sourceTree = "<group>"; };
+		F1EC259D2A1CC8200085C755 /* DirectionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionPicker.swift; sourceTree = "<group>"; };
+		F1EC259F2A1CCD040085C755 /* StyleOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleOptions.swift; sourceTree = "<group>"; };
+		F1F7A2262A17DEFD0016BCE3 /* TextGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGenerator.swift; sourceTree = "<group>"; };
+		F1F7A2282A1810DD0016BCE3 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B4D66B2A13A9CF00F92D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F179A7092A1D5DD3002D1192 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC259B2A1BE9D70085C755 /* CreateTempFile.swift */,
+				F15C97FC2A27EB580053104A /* SaveToFile.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		F19E588D2A1E8F77009BF8DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F19E588E2A1E9031009BF8DB /* TextGenerator-ViewModel.swift */,
+				F1AE02D22A1E596A00B01284 /* WifiGenerator-ViewModel.swift */,
+				F19E58902A1E90E3009BF8DB /* EmailGenerator-ViewModel.swift */,
+				F15C97F12A27A37B0053104A /* Scan-ViewModel.swift */,
+				F15A21512A2D384F00EE522C /* Preview-ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1AEA0A32A164D95004EDAC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE02D42A1E7CAA00B01284 /* Wifi.swift */,
+				F19E58922A1E91B6009BF8DB /* Email.swift */,
+				F179A7072A1D5C81002D1192 /* CorrectionLevel.swift */,
+				F179A7052A1D5C76002D1192 /* QRCode.swift */,
+				F1B4D6862A13FDBC00F92D7C /* SidebarItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1AEA0A42A164DA5004EDAC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4D6732A13A9CF00F92D7C /* ContentView.swift */,
+				F1AEA0A62A164F4D004EDAC1 /* Preview.swift */,
+				F15C97ED2A279E2B0053104A /* Scan.swift */,
+				F1AEA0A52A164DAE004EDAC1 /* Generators */,
+				F1EC259A2A1B8BE40085C755 /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1AEA0A52A164DAE004EDAC1 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				F1F7A2262A17DEFD0016BCE3 /* TextGenerator.swift */,
+				F1B4D6842A13FD7400F92D7C /* WifiGenerator.swift */,
+				F1EC25962A1ACBAF0085C755 /* EmailGenerator.swift */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		F1B4D6652A13A9CE00F92D7C = {
+			isa = PBXGroup;
+			children = (
+				F1B4D6702A13A9CF00F92D7C /* QRCoder */,
+				F1B4D66F2A13A9CF00F92D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B4D66F2A13A9CF00F92D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4D66E2A13A9CF00F92D7C /* QRCoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B4D6702A13A9CF00F92D7C /* QRCoder */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4D6712A13A9CF00F92D7C /* QRCoderApp.swift */,
+				F1B4D6882A13FE2100F92D7C /* AppState.swift */,
+				F15C97F52A27D5A80053104A /* GeneratorViewModel-Protocol.swift */,
+				F1AEA0A42A164DA5004EDAC1 /* View */,
+				F1AEA0A32A164D95004EDAC1 /* Model */,
+				F19E588D2A1E8F77009BF8DB /* ViewModel */,
+				F179A7092A1D5DD3002D1192 /* Functions */,
+				F15C97F92A27EA460053104A /* Localizable.strings */,
+				F1B4D6752A13A9D000F92D7C /* Assets.xcassets */,
+				F1B4D67A2A13A9D000F92D7C /* QRCoder.entitlements */,
+				F1B4D6772A13A9D000F92D7C /* Preview Content */,
+			);
+			path = QRCoder;
+			sourceTree = "<group>";
+		};
+		F1B4D6772A13A9D000F92D7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4D6782A13A9D000F92D7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1EC259A2A1B8BE40085C755 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC259F2A1CCD040085C755 /* StyleOptions.swift */,
+				F1EC259D2A1CC8200085C755 /* DirectionPicker.swift */,
+				F1F7A2282A1810DD0016BCE3 /* Generator.swift */,
+				F1EC25792A194B370085C755 /* CorrectionLevelView.swift */,
+				F1EC25982A1B843D0085C755 /* CustomTextEditor.swift */,
+				F1AEA0AE2A167F89004EDAC1 /* FormRow.swift */,
+				F1AEA0AA2A167902004EDAC1 /* Checkerboard.swift */,
+				F15C97F32A27AE9D0053104A /* TextView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B4D66D2A13A9CF00F92D7C /* QRCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B4D67D2A13A9D000F92D7C /* Build configuration list for PBXNativeTarget "QRCoder" */;
+			buildPhases = (
+				F1B4D66A2A13A9CF00F92D7C /* Sources */,
+				F1B4D66B2A13A9CF00F92D7C /* Frameworks */,
+				F1B4D66C2A13A9CF00F92D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCoder;
+			productName = QRCoder;
+			productReference = F1B4D66E2A13A9CF00F92D7C /* QRCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B4D6662A13A9CE00F92D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1B4D66D2A13A9CF00F92D7C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F1B4D6692A13A9CE00F92D7C /* Build configuration list for PBXProject "QRCoder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = F1B4D6652A13A9CE00F92D7C;
+			productRefGroup = F1B4D66F2A13A9CF00F92D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B4D66D2A13A9CF00F92D7C /* QRCoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1B4D66C2A13A9CF00F92D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B4D6792A13A9D000F92D7C /* Preview Assets.xcassets in Resources */,
+				F15C97FB2A27EA460053104A /* Localizable.strings in Resources */,
+				F1B4D6762A13A9D000F92D7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B4D66A2A13A9CF00F92D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AEA0AF2A167F89004EDAC1 /* FormRow.swift in Sources */,
+				F1EC257A2A194B370085C755 /* CorrectionLevelView.swift in Sources */,
+				F179A7062A1D5C76002D1192 /* QRCode.swift in Sources */,
+				F1F7A2292A1810DD0016BCE3 /* Generator.swift in Sources */,
+				F1AE02D52A1E7CAA00B01284 /* Wifi.swift in Sources */,
+				F1B4D6742A13A9CF00F92D7C /* ContentView.swift in Sources */,
+				F19E588F2A1E9031009BF8DB /* TextGenerator-ViewModel.swift in Sources */,
+				F1B4D6852A13FD7400F92D7C /* WifiGenerator.swift in Sources */,
+				F1EC25A02A1CCD040085C755 /* StyleOptions.swift in Sources */,
+				F1AE02D32A1E596A00B01284 /* WifiGenerator-ViewModel.swift in Sources */,
+				F1B4D6892A13FE2100F92D7C /* AppState.swift in Sources */,
+				F1EC259C2A1BE9D70085C755 /* CreateTempFile.swift in Sources */,
+				F1EC25992A1B843D0085C755 /* CustomTextEditor.swift in Sources */,
+				F1B4D6872A13FDBC00F92D7C /* SidebarItem.swift in Sources */,
+				F1AEA0AB2A167902004EDAC1 /* Checkerboard.swift in Sources */,
+				F1B4D6722A13A9CF00F92D7C /* QRCoderApp.swift in Sources */,
+				F1EC25972A1ACBAF0085C755 /* EmailGenerator.swift in Sources */,
+				F1AEA0A72A164F4D004EDAC1 /* Preview.swift in Sources */,
+				F15C97F62A27D5A80053104A /* GeneratorViewModel-Protocol.swift in Sources */,
+				F15C97F42A27AE9D0053104A /* TextView.swift in Sources */,
+				F1EC259E2A1CC8200085C755 /* DirectionPicker.swift in Sources */,
+				F1F7A2272A17DEFD0016BCE3 /* TextGenerator.swift in Sources */,
+				F19E58932A1E91B6009BF8DB /* Email.swift in Sources */,
+				F19E58912A1E90E3009BF8DB /* EmailGenerator-ViewModel.swift in Sources */,
+				F15C97F22A27A37B0053104A /* Scan-ViewModel.swift in Sources */,
+				F15A21522A2D384F00EE522C /* Preview-ViewModel.swift in Sources */,
+				F179A7082A1D5C81002D1192 /* CorrectionLevel.swift in Sources */,
+				F15C97EE2A279E2B0053104A /* Scan.swift in Sources */,
+				F15C97FD2A27EB580053104A /* SaveToFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F15C97F92A27EA460053104A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15C97FA2A27EA460053104A /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1B4D67B2A13A9D000F92D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1B4D67C2A13A9D000F92D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F1B4D67E2A13A9D000F92D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QRCoder/QRCoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRCoder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2AVV44AJY6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oterodiaz.QRCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F1B4D67F2A13A9D000F92D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QRCoder/QRCoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRCoder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2AVV44AJY6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oterodiaz.QRCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B4D6692A13A9CE00F92D7C /* Build configuration list for PBXProject "QRCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B4D67B2A13A9D000F92D7C /* Debug */,
+				F1B4D67C2A13A9D000F92D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B4D67D2A13A9D000F92D7C /* Build configuration list for PBXNativeTarget "QRCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B4D67E2A13A9D000F92D7C /* Debug */,
+				F1B4D67F2A13A9D000F92D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B4D6662A13A9CE00F92D7C /* Project object */;
+}
