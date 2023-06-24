@@ -26,7 +26,11 @@ struct Preview: View {
                     .stroke(.selection, lineWidth: 2)
             }
             .onDrag {
-                viewModel.handleDrag()
+                if viewModel.isDraggingEnabled {
+                    return viewModel.handleDrag()
+                } else {
+                    return NSItemProvider()
+                }
             }
     }
 }

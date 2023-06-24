@@ -24,10 +24,6 @@ extension Preview {
         }
 
         func handleDrag() -> NSItemProvider {
-            guard isDraggingEnabled else {
-                return NSItemProvider()
-            }
-
             guard let nsImage = nsImage else {
                 return NSItemProvider()
             }

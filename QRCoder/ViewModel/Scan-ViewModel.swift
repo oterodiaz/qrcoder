@@ -137,10 +137,7 @@ extension Scan {
 
         func takeScreenshot(of type: ScreenshotType = .screen) {
             let filename = UUID().uuidString
-            let containerHome = FileManager.default.homeDirectoryForCurrentUser
-            let url = URL(filePath: "tmp/\(filename)",
-                          directoryHint: .notDirectory,
-                          relativeTo: containerHome)
+            let url = URL(filePath: NSTemporaryDirectory()).appending(component: filename)
 
             let process = Process()
 
